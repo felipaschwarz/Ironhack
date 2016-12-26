@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MOVIES: <%= @word %></title>
+	</head>
+	<body>
+		<h1>MOVIES: <%= @word %></h1>
+		<% @results.each do |movie| %>
+			<label><img src="<%=  movie.poster %>" alt="<%= movie.title %>" width="150px"><input type="checkbox" name="movie" value= "#{movie}"></label>
+		<% end %>
+		<p>Pick the movie that was released in <%= xxx %></p>
+	</body>
+</html>

@@ -1,0 +1,2 @@
+module PlaceholderGeneratorHelper
+end

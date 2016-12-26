@@ -1,0 +1,16 @@
+<h1>Add product for <%= @user.name %> </h1>
+
+<%= form_for [@project, @entry] do |f| %>
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+	<br>
+	<%= f.label :description %>
+	<%= f.text_field :description %>
+	<br>
+	<%= f.label :deadline %>
+	<%= f.date_field :deadline %>
+	<br>
+
+	<%= f.button %>
+	<%= link_to 'Cancel', user_path(@user) %>
+<% end%>

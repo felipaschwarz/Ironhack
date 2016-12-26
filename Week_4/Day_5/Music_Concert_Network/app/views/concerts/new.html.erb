@@ -1,0 +1,25 @@
+<h1>New Concert</h1>
+
+<%= form_for @concert do |c| %>
+
+	<%= c.label :artist %>
+	<%= c.text_field :artist %>
+
+	<%= c.label :venue %>
+	<%= c.text_field :venue %>
+	
+	<%= c.label :city %>
+	<%= c.text_field :city %>
+	
+	<%= c.label :date %>
+	<%= c.date_field :date %>
+	
+	<%= c.label :price %>
+	<%= c.text_field :price %>
+
+	<%= c.label :description %>
+	<%= c.text_field :description %>
+
+	<%= c.button %>
+
+<% end%>

@@ -1,0 +1,15 @@
+.action-button {
+	transition-property: background;
+	transition-duration: .6s
+	transition-timing-function: linear;
+	transition-delay: 0s;
+
+
+}
+
+.action-button:hover {
+	transform: translate(0px, 10px);
+	/*-webkit-transform: translate(0px,5px);*/
+	background: #ff7b29;
+
+}

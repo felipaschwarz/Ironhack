@@ -1,0 +1,107 @@
+/* .container-float { 
+    margin-right: auto;
+    margin-left: auto;
+}*/
+
+#header {
+	background-color: white;
+}
+
+h1 {
+	position: relative;
+	left: 60px;
+}
+
+#header a {
+	color: black;
+}
+
+#header ul li {
+	display: block; 
+	text-decoration: none;
+	float: left;
+}
+
+#header ul li a {
+	color: #777;
+	line-height: 600%;
+	text-align: center;
+	margin: 7px;
+}
+
+#header ul li a:hover {
+	color: #f4473a;
+	text-decoration: none;
+}
+
+#slider {
+	background-color: rgb(140, 140, 140);
+}
+
+#topic {
+	padding: 40px 40px;
+    background: #ed564b;
+    border-top: 5px solid #f96b61;
+    border-bottom: 5px solid #f96b61;
+    color: white;
+    text-align: center;
+}
+
+span {
+	border: 5px solid #fff;
+	width:70px;
+	height: 70px;
+	border-radius: 35px;
+	font-size: 20px;
+	/*display: block;
+	line-height: 65px;
+	gibt es keine andere Möglichkeit zu zentrieren?
+	text-align: center;
+	margin: 0px auto;*/
+	
+
+}
+
+#article {
+
+}
+
+#bottom {
+	background: #606060;
+	color: white;
+}
+
+h3 {
+	font-size: 16px;
+	margin-bottom: 10px
+	padding: 10px 0px;
+	text-transform: uppercase;
+}
+
+#bottom p {
+	color: #aaa;
+}
+
+#bottom ul{
+	padding: 0px;
+	line-height: 18px;
+}
+
+#bottom ul li a{
+	color: #aaa;
+	padding: 7px 0px 7px 0px;
+	display: block;
+}
+
+#footer {
+	background: #333;
+	padding: 20px 70px;
+	color: #eee;
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}

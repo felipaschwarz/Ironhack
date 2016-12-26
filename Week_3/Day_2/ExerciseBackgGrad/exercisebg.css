@@ -1,0 +1,8 @@
+.background {
+	background-color: rgb(0, 0, 50);
+	background-image: url(http://cdn.instantshift.com/media/uploads/2009/12/beobawp.jpg);
+	background-repeat: no-repeat;
+	background-position: top right: 
+
+	background: rgb(0, 0, 50) url(http://cdn.instantshift.com/media/uploads/2009/12/beobawp.jpg) no-repeat top right;
+}

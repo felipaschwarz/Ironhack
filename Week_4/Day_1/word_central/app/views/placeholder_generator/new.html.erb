@@ -1,0 +1,21 @@
+<h1>Word Central</h1>
+
+<h2>Generate placeholdertext</h2>
+
+<form action="/placeholder_generator" method="POST">
+
+  <div>
+    <label for="placeholder_generator_user_number">Number of
+    	<select>
+		  <option value="word">Words</option>
+		  <option value="paragraph">paragraphs</option>
+		</select>
+  	</label>
+    <textarea name="placeholder_generator[user_number]" id="placeholder_generator_user_number"></textarea>
+  </div>
+
+  <button type="submit">Submit</button>
+
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+</form>

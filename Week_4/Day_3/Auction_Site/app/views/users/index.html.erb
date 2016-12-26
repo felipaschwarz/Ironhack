@@ -1,0 +1,13 @@
+<h1>Auction Site</h1>
+
+<h2>Users</h2>
+
+<ul>
+	<% @users.each do |u|%>
+		<li>
+			<%= link_to "#{u.name}", user_path(u) %>
+		</li>
+	<% end %>
+</ul>
+
+<%= link_to "Add user", new_user_path %>

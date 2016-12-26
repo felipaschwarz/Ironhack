@@ -1,0 +1,29 @@
+@media only screen and (max-width: 240px) {
+	body:after {
+		content: "240 and down";
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	body:after {
+		content: "320 and up";
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	body:after {
+		content: "480 and up";
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+	body:after {
+		content: "768 and up";
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	body:after {
+		content: "1024 and up";
+	}
+}
